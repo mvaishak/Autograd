@@ -273,22 +273,9 @@ $$\text{ReLU}(x) = \begin{cases} x & \text{if } x > 0 \\ 0 & \text{otherwise} \e
 Gradient:
 $$\frac{d}{dx}\text{ReLU}(x) = \begin{cases} 1 & \text{if } x > 0 \\ 0 & \text{otherwise} \end{cases}$$
 
-## Performance Notes
 
-This implementation prioritizes clarity and educational value over performance. For production use, consider:
-
-- Using established frameworks like PyTorch or TensorFlow
-- GPU acceleration for large datasets
-- Batch processing
-- Advanced optimization algorithms (Adam, RMSprop, etc.)
-
-## Limitations
-
-- Single-threaded (no parallelization)
-- No GPU support
-- No convolutional or recurrent layers
-- Limited to scalar and vector operations (no matrix multiplication optimization)
-- No automatic batch processing
+NOTE: 
+This implementation prioritizes clarity and educational value over performance.
 
 ## Future Enhancements
 
@@ -301,15 +288,6 @@ This implementation prioritizes clarity and educational value over performance. 
 - [ ] Recurrent layers
 - [ ] GPU support
 
-## Contributing
-
-Contributions are welcome! Areas for improvement:
-
-- Performance optimization
-- Additional layers and operations
-- Better documentation
-- More comprehensive examples
-- Gradient checking utilities
 
 ## License
 
@@ -327,11 +305,6 @@ This project was built to understand the fundamentals of automatic differentiati
 
 - Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press.
 - Karpathy, A. (2017). *A Hacker's Guide to Artificial Intelligence*
-- Automatic Differentiation: https://en.wikipedia.org/wiki/Automatic_differentiation
-
-## Contact
-
-For questions or feedback, feel free to open an issue on GitHub.
 
 ---
 
